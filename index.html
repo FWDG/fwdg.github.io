@@ -1,23 +1,55 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Florine de Geus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Roboto|Roboto+Condensed" rel="stylesheet">
+</head>
+<body>
+    <div class="page-header">
+        <h1>Florine de Geus</h1>
+    </div>
+    <div class="container">
+        <h1>About</h1>
+            <h2>Education</h2>
+            <ul>
+                <li>University of Amsterdam - BSc Computer Science (2017 - present)</li>
+            </ul>
 
-<div class="home">
+            <h2>Languages</h2>
+            <ul>
+                <li>Dutch - Native language, excellent in reading, writing and speaking.</li>
+                <li>English - Secondary language, fluent in reading, writing and speaking. <em>Anglia Proficiency</em> (ERK level C1) certificate obtained in 2013, with grade 'Distiction'.</li>
+            </ul>
 
-  <h1 class="page-heading">Posts</h1>
+            <h2>Programming Languages</h2>
+            <ul>
+                <li>Python</li>
+                <li>C/C++</li>
+                <li>Java</li>
+                <li>Javascript</li>
+                <li>HTML/CSS</li>
+                <li>PHP</li>
+                <li>Bash</li>
+            </ul>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2>Personal Interests</h2>
+            <ul>
+                <li>Programming</li>
+                <li>Mathematics</li>
+                <li>Sailing</li>
+                <li>Music</li>
+                <li>Petting dogs</li>
+            </ul>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+        <h1>Projects</h1>
+        <p>Coming soon :)</p>
+    </div>
+    <div class="page-footer">
+            <p>© 2019</p>
+    </div>
+</body>
+</html>
